@@ -1,0 +1,9 @@
+[project]
+name = "ml-models"
+version = "0.0.1"
+description = "Simple ML models (linear regression, logistic regression, classification)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.3.3",
+]
