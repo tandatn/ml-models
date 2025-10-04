@@ -14,7 +14,7 @@ def create_model(features: list, label: str, lr=0.0001, batch_size=30, epochs=20
         y = dataset[label].to_numpy()
 
         # Parameters
-        weights = np.zeros(2, dtype=float)
+        weights = np.zeros(X.shape[1], dtype=float)
         bias = 0.0
 
         for epoch in range(epochs):
